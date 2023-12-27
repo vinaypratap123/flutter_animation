@@ -23,7 +23,7 @@ class _Example2State extends State<Example2> {
         title: const Text("Animated Shopping Cart Button"),
       ),
       body: InkWell(
-        onTap: (){
+        onTap: () {
           changeButton();
         },
         child: Center(
@@ -39,7 +39,7 @@ class _Example2State extends State<Example2> {
                     : BorderRadius.circular(5)),
             child: Center(
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: isExpanded ? MainAxisAlignment.spaceEvenly:MainAxisAlignment.center,
                 children: [
                   Icon(
                     isExpanded ? Icons.check : Icons.shopping_cart,

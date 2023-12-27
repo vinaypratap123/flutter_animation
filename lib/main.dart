@@ -1,5 +1,7 @@
-import 'package:animation_flutter/implicit_animation_example/animated_shopping_cart_button.dart';
+
 import 'package:flutter/material.dart';
+
+import 'explicit_animation_example/login_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +18,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const Example2());
+        home: const Example1());
   }
 }
