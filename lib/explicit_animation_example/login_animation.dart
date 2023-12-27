@@ -50,7 +50,7 @@ class _Example1State extends State<Example1>
               FadeTransition(
                 opacity: logoFadeAnimation,
                 child: const FlutterLogo(
-                  size: 100,
+                  size: 95,
                 ),
               ),
               Padding(
